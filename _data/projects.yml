@@ -1,6 +1,16 @@
 # Project template
 - layout: top-middle
-  name: Project name
+  name: My Project Portfolio
+  link: SpillaneMakes.com
+  github:
+  quote:
+  description: | # this will include new lines to allow paragraphs
+    You can view and follow update to projects that I am currently working on at my personal website: SpillaneMakes.com
+    Here I describe past and current projects that I am working on as a method of documentation.
+    This acts as my personal portfolio of my design work throughout my university career.
+
+- layout: top-middle
+  name: Rigid Rostock Mini
   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
   github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
