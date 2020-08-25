@@ -46,13 +46,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: SpillanePic.JPG #(eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+  Daniel Spillane is a Master’s student in the School of Engineering Design, Technology, and Professional Programs (SEDTAPP) at Penn State. After completing a degree in Electrical Engineering and a Certificate in Engineering Design at Penn State in 2019, Dan continued his research with the Made by Design Lab, where he focuses on generative 3D modeling design tools for additive manufacturing. Dan is currently a Maker in Residence at Penn State’s Learning Factory where he teaches workshops on digital manufacturing techniques. He continues to volunteer time with student design organizations within SEDTAPP where he has been recognized with a distinguished student service award for his contributions to the department.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
