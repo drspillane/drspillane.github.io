@@ -1,0 +1,68 @@
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 details">
+    {%- if include.item.name1 -%}<h4><center>{{ include.item.name1 }}</center></h4>{%- endif -%}
+    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
+    {%- if include.item.link1 -%}
+      {% include a.html href=include.item.link1 class="link" %}<center>{{ include.item.link1 }}</center></a>
+    {%- endif -%}
+    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
+    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+	{{ include.item.description1 | strip | markdownify }}
+    {% for job in include.item.jobs %}
+      <p><b>{{ job.title }}</b></p>
+      <p>{{ job.dates }}</p>
+    {% endfor %}
+    {%- if include.item.github -%}
+      <p class="no-print">
+        <a href="https://github.com/{{ include.item.github }}" target="_blank">
+          <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+        </a>
+      </p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 details">
+    {%- if include.item.name2 -%}<h4><center>{{ include.item.name2 }}</center></h4>{%- endif -%}
+    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
+    {%- if include.item.link2 -%}
+      {% include a.html href=include.item.link2 class="link" %}<center>{{ include.item.link2 }}</center></a>
+    {%- endif -%}
+    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
+    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+	{{ include.item.description2 | strip | markdownify }}
+    {% for job in include.item.jobs %}
+      <p><b>{{ job.title }}</b></p>
+      <p>{{ job.dates }}</p>
+    {% endfor %}
+    {%- if include.item.github -%}
+      <p class="no-print">
+        <a href="https://github.com/{{ include.item.github }}" target="_blank">
+          <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+        </a>
+      </p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 details">
+    {%- if include.item.name3 -%}<h4><center>{{ include.item.name3 }}</center></h4>{%- endif -%}
+    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
+    {%- if include.item.link3 -%}
+      {% include a.html href=include.item.link3 class="link" %}<center>{{ include.item.link3 }}</center></a>
+    {%- endif -%}
+    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
+    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+	{{ include.item.description3 | strip | markdownify }}
+    {% for job in include.item.jobs %}
+      <p><b>{{ job.title }}</b></p>
+      <p>{{ job.dates }}</p>
+    {% endfor %}
+    {%- if include.item.github -%}
+      <p class="no-print">
+        <a href="https://github.com/{{ include.item.github }}" target="_blank">
+          <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+        </a>
+      </p>
+    {%- endif -%}
+  </div>  
+</div>

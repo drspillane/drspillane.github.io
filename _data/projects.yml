@@ -1,19 +1,29 @@
 # Project template
-- layout: top-middle
-  name: My Project Portfolio
+- layout: left
+  name: Engineering Project Portfolio
   link: SpillaneMakes.com
   github:
   quote:
   description: | # this will include new lines to allow paragraphs
-    You can view and follow update to projects that I am currently working on at my personal website: SpillaneMakes.com
-    Here I describe past and current projects that I am working on as a method of documentation.
-    This acts as my personal portfolio of my design work throughout my university career.
+    All of my past and active projects are listed on my portfolio website: ***<a href="http://spillanemakes.com/" target="_top">SpillaneMakes.com</a>*** <br>
+    Three main areas are featured below with direct links to the corresponding section on my website.
+    If you wish to learn more about any of the projects shown on my site, feel free to reach out through my listed contact information.
 
-- layout: top-middle
-  name: Rigid Rostock Mini
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+- layout: triad
+  name1: Voxel Based Research
+  link1: SpillaneMakes.com/VoxelResearch
+  github:
+  quote:
+  description1: Voxel based 3D modeling tools designed to take advantage of the manufacturing complexity offered by additive manufacturing
+
+  name2: Open Source 3D Printer Designs
+  link2: SpillaneMakes.com/3DPrinters
+  github:
+  quote:
+  description2: RepRap style material extrusion printers inspired by novel improvements in the additive manufacturing Maker Community
+
+  name3: CAD 3D Modeling Gallery
+  link3: SpillaneMakes.com/CADGallery
+  github:
+  quote:
+  description3: 3D models designed throughout my academic career in a variety of CAD programs

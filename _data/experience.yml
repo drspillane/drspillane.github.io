@@ -2,7 +2,7 @@
 - layout: left
   company: Graduate Researcher # Position used instead of company
   link:
-  job_title: Made by Design Lab <br> Pennsylvania State University
+  job_title: Made by Design Lab <br> THRED Group <br> Pennsylvania State University
   dates: Spring 2017 - Present
   quote:
   description: | # this will include new lines to allow paragraphs
@@ -17,7 +17,7 @@
   company: Teaching Intern # Position used instead of company
   link:
   job_title: School of Engineering Design, Technology, and Professional Programs<br> Pennsylvania State University
-  dates: Fall 2018 - Spring 2019
+  dates: Fall 2018 - Spring 2019, Summer 2020
   quote:
   description: | # this will include new lines to allow paragraphs
     - Developed lessons plans on CAD and Hybrid Manufacturing techniques
